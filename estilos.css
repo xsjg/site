@@ -10,3 +10,20 @@ body{background-color: rgb(0, 0, 0);
  }
  p{background-color: aliceblue;
 }
+ ul
+ {
+  "font-size:30px ; color: rgb(0, 0, 0);"> 
+  <li style=" background-color: rgb(127, 255, 0, 0.7);
+   width: 1%; 
+   color: rgba(0, 0, 0, 1.0); " >x</li>
+  <li style=" background-color: rgba(0, 0, 0, 0.7);
+   width: 1%;
+    color: rgb(0, 255, 34);">s</li>
+  <li style=" background-color: rgb(127, 255, 0, 0.7);
+   width: 1%;
+    color: rgb(0, 0, 0);">j</li>
+  <li style=" background-color: rgba(0, 0, 0, 0.7);
+   width: 1%;
+    color: rgb(0, 255, 24);">g</li>
+</ul>
+} 
