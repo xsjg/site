@@ -17,6 +17,9 @@ body
  }
  p
  {background-color: aliceblue;
+  font-size: 30px;
+  font-style: inherit;
+  font-weight: 30px;
 }
  ul
  {
@@ -52,3 +55,16 @@ body
 .linksa{
   color: rgb(255, 0, 0);
 }  
+h3
+{
+font-size: 30px; 
+background-color: aliceblue;
+}
+.insta
+{
+  color: rgb(255, 0, 212);
+}
+.maps{
+  display: block ;
+  margin: 0 auto;
+}
