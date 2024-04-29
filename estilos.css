@@ -79,3 +79,6 @@ display: inline-block; font-size: 35px ; margin: 0 20%; background-color: rgb(0,
 .menu a{
   color: chartreuse;
 } 
+.h2{
+  color: rgb(255, 0, 212);
+}
