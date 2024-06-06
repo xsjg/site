@@ -65,12 +65,6 @@ background-color: aliceblue;
    font-size:50px ;
   color: rgb(255, 0, 212);
 }
-.maps{
-  display: block ;
-  margin: 0 auto;
-  width: 10000% ;
-  height: 5000% ;
-}
 .menu > li 
 {
 display: inline-block; font-size: 35px ; margin: 0 20%; background-color: rgb(0, 0, 0);
