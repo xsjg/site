@@ -30,7 +30,7 @@ body
   
    width: 1%; 
    color: rgba(0, 0, 0, 1.0);}
-  li:nth-child(even){
+.lista  li:nth-child(even){
     background-color: rgba(127, 255, 0, 0.7);
     color: rgb(0, 0, 0);
   }
@@ -67,14 +67,38 @@ background-color: aliceblue;
 }
 .menu > li 
 {
-display: inline-block; font-size: 35px ; margin: 0 20%; background-color: rgb(0, 0, 0);
+font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-type: none; width: 15%;
 }
 .menu{
-  background-color: rgb(0, 0, 0); line-height: 300% ;
+  background-color: rgb(0, 0, 0); line-height: 300% ; display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap; list-style: none; 
 }
 .menu a{
   color: chartreuse;
 } 
 .h2{
   color: rgb(255, 0, 212);
+}
+.youtube
+{
+color: black; 
+}
+.lista
+ {
+  font-size:70px ;
+  color: rgb(0, 0, 0);
+ } 
+.joi li { 
+  
+   width: 40%; 
+   color: rgba(0, 0, 0, 1.0);}
+.joi  li:nth-child(even){
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+.joi li:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 255, 27);
+  }
+h4{
+  color: black;
 }
