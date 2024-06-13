@@ -23,7 +23,7 @@ body
 }
 .lista
  {
-  font-size:30px ;
+  font-size:20px ;
   color: rgb(0, 0, 0);
  } 
 .lista li { 
@@ -87,8 +87,8 @@ color: black;
   font-size:70px ;
   color: rgb(0, 0, 0);
  } 
-.joi li { 
-  
+ul.joi > li { 
+  font-size: 40px;
    width: 40%; 
    color: rgba(0, 0, 0, 1.0);}
 .joi  li:nth-child(even){
