@@ -46,7 +46,7 @@ body
 }
 .fotos
 {
-   display: inline; width: 25%;
+   display: inline; width: 25%; height: 250px ;
 }
 .links
 {
