@@ -1,0 +1,173 @@
+body
+{
+  background-color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); background-image: url(fts/brasilgrme.png);
+    background-position: center center ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+   background-size: cover;
+}
+ img
+ {
+  display: block; margin: 20px auto; width:  40%;  
+} 
+ h1
+ {
+  background-color: aliceblue;
+ }
+ p
+ {background-color: aliceblue;
+  font-size: 30px;
+  font-style: inherit;
+  font-weight: 30px;
+}
+.lista
+ {
+  font-size:20px ;
+  color: rgb(0, 0, 0);
+ } 
+.lista li { 
+  
+   width: 1%; 
+   color: rgba(0, 0, 0, 1.0);}
+.lista  li:nth-child(even){
+    background-color: rgba(127, 255, 0, 0.7);
+    color: rgb(0, 0, 0);
+  }
+.lista li:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(7, 255, 27);
+  }
+  
+  ol
+{
+  font-size:30px ;
+  color: rgb(0, 0, 0);
+}
+.fotos
+{
+   display: inline; width: 25%; height: 250px ;
+}
+.links
+{
+  color: rgb(10, 255, 2); font-size: 50px;
+}
+.linksa
+{
+  color: rgb(194, 20, 20); font-size: 50px;
+}  
+h3
+{
+font-size: 200%; 
+background-color: rgba(240, 248, 255, 0);
+}
+.insta
+{
+   font-size:50px ;
+  color: rgb(255, 0, 212);
+}
+.menu > li 
+{
+font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-type: none; width: 15%;
+}
+.menu
+{
+  background-color: rgb(0, 0, 0); line-height: 300% ; display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap; list-style: none; 
+}
+.menu a
+{
+  color: chartreuse;
+} 
+.h2
+{
+  color: rgb(255, 0, 212);
+}
+.youtube
+{
+color: black; 
+}
+.lista
+ {
+  font-size:40px ;
+  color: rgb(0, 0, 0);
+ } 
+ul.joi > li 
+{ 
+  font-size: 40px;
+   width: 40%; 
+   color: rgba(0, 0, 0, 1.0);}
+.joi  li:nth-child(even){
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+.joi li:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 255, 27);
+  }
+h4
+{
+  color: black;
+}
+table
+{
+  margin: 0 auto ;
+  font-size: 2rem;
+  border: solid 2px black ;
+  text-align: center;
+
+}
+tr:nth-child(even) 
+{
+  background-color: rgb(7, 167, 15);
+  color: white;
+}
+tr:nth-child(odd)
+{
+  background-color: white;
+  color: black;
+}
+td
+{
+  padding: 10px ;
+}
+th
+{
+  padding: 10px;
+}
+footer
+{
+  font-size:20px ; background-color: rgba(7, 255, 27, 0.801); text-align-last: center; width: 100%; 
+}
+.maps
+{
+  display: block; width: 50%; margin: 0 auto ; height: 450px;
+}
+.fts
+{
+  height: 400px; width: 400px;
+}
+.footerb
+{
+  font-size:20px ; background-color: rgba(194, 20, 20); text-align-last: center; width: 100%; 
+}
+.menub > li 
+{
+font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-type: none; width: 15%;
+}
+.menub
+{
+  background-color: rgb(0, 0, 0); line-height: 300% ; display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap; list-style: none; 
+}
+.menub a
+{
+  color: rgb(194, 20, 20);
+}
+.bodyb
+{
+  background-color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); background-image: url(fts/purgabkg.png);
+    background-position: center center ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+   background-size: cover;
+}
