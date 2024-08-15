@@ -52,6 +52,9 @@ body
 {
   color: rgb(10, 255, 2); font-size: 50px;
 }
+.links:hover {
+  font-size: 55px ; transition: all 200ms;
+}
 .linksa
 {
   color: rgb(194, 20, 20); font-size: 50px;
@@ -70,21 +73,27 @@ background-color: rgba(240, 248, 255, 0);
 {
 font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-type: none; width: 15%;
 }
-.menu
+.menu 
 {
   background-color: rgb(0, 0, 0); line-height: 300% ; display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap; list-style: none; 
 }
-.menu a
+.menu a 
 {
   color: chartreuse;
 } 
+.menu a:hover {
+  font-size: 40px; transition: all 200ms ;
+}
 .h2
 {
   color: rgb(255, 0, 212);
 }
 .youtube
 {
-color: black; 
+color: black; background-color: rgb(255, 255, 255); font-size: 35px;
+}
+.youtube:hover{
+  font-size: 40px; transition: all 200ms;
 }
 .lista
  {
@@ -97,11 +106,11 @@ ul.joi > li
    width: 40%; 
    color: rgba(0, 0, 0, 1.0);}
 .joi  li:nth-child(even){
-    background-color: rgb(255, 255, 255);
+
     color: rgb(0, 0, 0);
   }
 .joi li:nth-child(odd){
-    background-color: rgb(255, 255, 255);
+
     color: rgb(7, 255, 27);
   }
 h4
@@ -118,7 +127,7 @@ table
 }
 tr:nth-child(even) 
 {
-  background-color: rgb(7, 167, 15);
+  background-color: rgb(194, 20, 20);
   color: white;
 }
 tr:nth-child(odd)
@@ -162,6 +171,9 @@ font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-t
 {
   color: rgb(194, 20, 20);
 }
+.menub a:hover {
+  font-size: 40px; transition: all 200ms;
+}
 .bodyb
 {
   background-color: rgb(0, 0, 0); 
@@ -170,4 +182,19 @@ font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-t
     background-repeat: no-repeat;
     background-attachment: fixed; 
    background-size: cover;
+}
+@media screen and (max-width:900px) {
+  
+} 
+@media screen and (max-width: 500px) {
+  .menu {
+    background-color: aliceblue;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
+.linksa:hover {
+  font-size: 55px ; transition: all 200ms;
 }
