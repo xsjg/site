@@ -196,11 +196,11 @@ font-size: 35px ; background-color: rgb(0, 0, 0); text-align: left; list-style-t
   }
 }
 .linksa:hover {
-  font-size: 55px ; transition: all 200ms;
+  font-size: 20px ; transition: all 200ms;
 }
 ul.joib > li 
 { 
-  font-size: 40px;
+  font-size: 5px;
    width: 40%; 
    color: rgba(0, 0, 0, 1.0);}
 .joib  li:nth-child(even){
@@ -227,6 +227,7 @@ section > h2 {
 }
 
 .lista_cursos {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -234,7 +235,7 @@ section > h2 {
 .lista_cursos_item {
     width: 15%;
     height:10%;
-    margin: 1% 5% 2%;
+    margin: 1% 1% 2%;
     text-align: center;
     border: 1px solid black;
     flex-direction: column;
@@ -250,8 +251,8 @@ section > h2 {
 
 .lista_cursos_item > h3 {
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
     font-weight: bold;
 }
 
