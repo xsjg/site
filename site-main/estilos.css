@@ -58,7 +58,8 @@ body
 .linksa
 {
   color: rgb(194, 20, 20); font-size: 50px;
-}  
+} 
+ 
 h3
 {
 font-size: 200%; 
@@ -300,4 +301,10 @@ b> h2 {
   line-height: 1rem;
   font-weight: bold;
 }
-
+.linksb
+{
+  color: rgb(194, 20, 20); font-size: 50px;
+}
+.linksb:hover {
+  font-size: 55px ; transition: all 200ms;
+}
