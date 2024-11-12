@@ -1,0 +1,23 @@
+create table alunos (
+	id_aluno int auto_increment primary key,
+    nome varchar(200),
+    idade varchar(200)
+);
+create table professores(
+id_professores int auto_increment primary key,
+	nome varchar(200),
+    materia varchar(200)
+);
+create table turmas(
+	id_turmas int auto_increment primary key,
+    id_professor int,
+    foreign key(id_professor) references professores(id_professores),
+    id_aluno int, 
+    foreign key(id_aluno) references alunos(id_aluno)
+);
+create table chamada (
+	id_turma int, 
+    foreign key(id_turma) references turmas(id_turmas),
+    id_aluno int,
+    foreign key(id_aluno) references turmas(id_aluno)
+    )
